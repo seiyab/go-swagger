@@ -7,6 +7,7 @@ import (
 	"crypto/tls"
 	"crypto/x509"
 	"errors"
+	"flag"
 	"fmt"
 	"log"
 	"net"
@@ -14,19 +15,16 @@ import (
 	"os"
 	"os/signal"
 	"strconv"
+	"strings"
 	"sync"
 	"sync/atomic"
 	"syscall"
 	"time"
 
-	"flag"
-	"strings"
-
 	"golang.org/x/net/netutil"
 
 	"github.com/go-openapi/runtime/flagext"
 	"github.com/go-openapi/swag"
-
 	"github.com/go-swagger/go-swagger/examples/flags/flag/restapi/operations"
 )
 

@@ -18,7 +18,6 @@ import (
 	"github.com/go-openapi/spec"
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
-
 	"github.com/go-swagger/go-swagger/examples/generated/restapi/operations/pet"
 	"github.com/go-swagger/go-swagger/examples/generated/restapi/operations/store"
 	"github.com/go-swagger/go-swagger/examples/generated/restapi/operations/user"

@@ -15,7 +15,6 @@ import (
 	cr "github.com/go-openapi/runtime/client"
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
-
 	"github.com/go-swagger/go-swagger/examples/task-tracker/models"
 )
 

@@ -14,7 +14,6 @@ import (
 	"github.com/go-openapi/strfmt"
 	"github.com/go-openapi/swag"
 	"github.com/go-openapi/validate"
-
 	"github.com/go-swagger/go-swagger/examples/tutorials/todo-list/server-2/models"
 )
 
